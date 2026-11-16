@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: azaris-workstation
+    runtime: node
+    plan: free
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 22.23.2
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: APP_URL
+        sync: false

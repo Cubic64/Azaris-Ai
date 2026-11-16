@@ -1,0 +1,6 @@
+{
+  "name": "Azaris",
+  "description": "Autonomous AI digital employees with local voice mode, multi-LLM support (Ollama, Claude, Gemini, custom keys), and real Gmail, WhatsApp, Call, QuickBooks, Browser, and System File integrations.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

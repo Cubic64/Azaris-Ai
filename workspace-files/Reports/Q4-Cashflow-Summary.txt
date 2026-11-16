@@ -1,0 +1,5 @@
+Q4 Operating Ledger Summary
+Revenue MTD: $64,200
+Operating Burn: $21,950
+Net Margin: +$42,250
+Top Overdue Invoice: INV-1042 (Northwind Logistics - $6,800)
